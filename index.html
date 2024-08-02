@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car'an</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="Icon" href="https://cdn-icons-png.flaticon.com/128/3085/3085411.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Racing+Sans+One&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- <button id="btn1" class="btn" onclick="mobileMenu()">𓃑</button>
+    <button id="btn2" class="btn-2" onclick="showMenu()">✖</button> -->
+
+
+    
+    <header>
+        <nav>
+            <!-- <span>Car'an</span> -->
+            <ul class="mainMenu" id="mainMenuId">
+                <li ><a href="#" class="listItem">HOME</a></li>
+                <li ><a href="#" class="listItem">ABOUT  US</a></li>
+                <li ><a href="#" class="listItem">BLOG</a></li>
+                <li ><a href="#" class="listItem">SERVICES</a></li>
+                <li><input id="search" type="text" placeholder="tap to search"></li>
+                <li><button id="searchBtn">⌕</button></li>
+            </ul>
+
+            
+        </nav>
+        
+        <button id="btn1" class="btn" >𓃑</button>
+        <button id="btn2" class="btn-2" >✖</button>
+    </header>
+    
+
+    <!-- Carousel DIV -->
+     <section>
+        <div class="slides">
+            <div class="slides-image"><img src="https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Model-3-Desktop-US.png" alt=""></div>
+            <div class="slides-image"><img src="https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Model-Y-Desktop-US-v2.png" alt=""></div>
+            <div class="slides-image"><img src="https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Model-X-Desktop-US.png" alt=""></div>
+            <div class="slides-image"><img src="https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Model-S-Desktop-US.png" alt=""></div>
+
+        </div>
+     </section>
+<!-- CSS
+ 
+
+.slides {
+  position: relative;
+  width: 100%;
+  height: 500px; /* adjust the height to your needs */
+  overflow: hidden;
+}
+
+.slides-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.5s ease-in-out;
+}
+
+.slides-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.slides:hover .slides-image {
+  transform: translateX(-100%);
+}
+
+.slides:hover .slides-image:nth-child(2) {
+  transform: translateX(0);
+}
+
+.slides:hover .slides-image:nth-child(3) {
+  transform: translateX(100%);
+}
+
+.slides:hover .slides-image:nth-child(4) {
+  transform: translateX(200%);
+}
+
+.slides:hover:hover .slides-image {
+  transform: translateX(0);
+}
+  
+-->
+    <!-- cards div -->
+
+    <h1 id="ourModelheading">Our Latest Models</h1>
+    
+    <div class="main">
+        <div class="slider">
+            <!-- <img src="https://images.pexels.com/photos/707046/pexels-photo-707046.jpeg?auto=compress&cs=tinysrgb&w=600" alt=""> -->
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis voluptates, tenetur voluptatibus maiores eveniet quo quaerat autem fugit obcaecati voluptatem excepturi commodi laudantium. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur, temporibus minima, culpa deserunt pariatur eos accusamus voluptatem asperiores repudiandae nostrum deleniti quae molestiae accusantium quis rerum! Laboriosam quibusdam earum iure, hic laborum possimus debitis esse? Itaque deleniti similique autem mollitia cupiditate pariatur, fuga eveniet natus quam odio quidem veritatis saepe?</p>
+            <h1>NEW Ferrari vxr.</h1>
+
+        </div>
+        
+
+
+        <div class="slider">
+            <!-- <img src="https://images.pexels.com/photos/39855/lamborghini-brno-racing-car-automobiles-39855.jpeg?auto=compress&cs=tinysrgb&w=600" alt=""> -->
+            <p style="background-image: url(https://images.pexels.com/photos/39855/lamborghini-brno-racing-car-automobiles-39855.jpeg?auto=compress&cs=tinysrgb&w=600) !important">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis voluptates, tenetur voluptatibus maiores eveniet quo quaerat autem fugit obcaecati voluptatem excepturi commodi laudantium. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur, temporibus minima, culpa deserunt pariatur eos accusamus voluptatem asperiores repudiandae nostrum deleniti quae molestiae accusantium quis rerum! Laboriosam quibusdam earum iure, hic laborum possimus debitis esse? Itaque deleniti similique autem mollitia cupiditate pariatur, fuga eveniet natus quam odio quidem veritatis saepe?</p>
+            <h1>Lamo-i Brno.</h1>
+
+        </div>
+        
+
+
+        <div class="slider">
+            <!-- <img src="https://images.pexels.com/photos/244206/pexels-photo-244206.jpeg?auto=compress&cs=tinysrgb&w=600" alt=""> -->
+            <p style="background-image: url(https://images.pexels.com/photos/244206/pexels-photo-244206.jpeg?auto=compress&cs=tinysrgb&w=600);">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis voluptates, tenetur voluptatibus maiores eveniet quo quaerat autem fugit obcaecati voluptatem excepturi commodi laudantium. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur, temporibus minima, culpa deserunt pariatur eos accusamus voluptatem asperiores repudiandae nostrum deleniti quae molestiae accusantium quis rerum! Laboriosam quibusdam earum iure, hic laborum possimus debitis esse? Itaque deleniti similique autem mollitia cupiditate pariatur, fuga eveniet natus quam odio quidem veritatis saepe?</p>
+            <h1>NEW Audi vxr.</h1>
+
+        </div>
+        
+
+
+        <div class="slider">
+            <!-- <img src="https://images.pexels.com/photos/3311574/pexels-photo-3311574.jpeg?auto=compress&cs=tinysrgb&w=600" alt=""> -->
+            <p style="background-image: url(https://images.pexels.com/photos/3311574/pexels-photo-3311574.jpeg?auto=compress&cs=tinysrgb&w=600);">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis voluptates, tenetur voluptatibus maiores eveniet quo quaerat autem fugit obcaecati voluptatem excepturi commodi laudantium. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur, temporibus minima, culpa deserunt pariatur eos accusamus voluptatem asperiores repudiandae nostrum deleniti quae molestiae accusantium quis rerum! Laboriosam quibusdam earum iure, hic laborum possimus debitis esse? Itaque deleniti similique autem mollitia cupiditate pariatur, fuga eveniet natus quam odio quidem veritatis saepe?</p>
+            <h1>OLD CORO vxr.</h1>
+
+        </div>
+        
+
+
+        <div class="slider">
+            <!-- <img src="https://images.pexels.com/photos/2127733/pexels-photo-2127733.jpeg?auto=compress&cs=tinysrgb&w=600" alt=""> -->
+            <p style="background-image: url(https://images.pexels.com/photos/2127733/pexels-photo-2127733.jpeg?auto=compress&cs=tinysrgb&w=600);">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis voluptates, tenetur voluptatibus maiores eveniet quo quaerat autem fugit obcaecati voluptatem excepturi commodi laudantium. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur, temporibus minima, culpa deserunt pariatur eos accusamus voluptatem asperiores repudiandae nostrum deleniti quae molestiae accusantium quis rerum! Laboriosam quibusdam earum iure, hic laborum possimus debitis esse? Itaque deleniti similique autem mollitia cupiditate pariatur, fuga eveniet natus quam odio quidem veritatis saepe?</p>
+            <h1>NEW Audi vxr.</h1>
+
+        </div>
+        
+
+
+        <div class="slider">
+            <!-- <img src="https://images.pexels.com/photos/3422964/pexels-photo-3422964.jpeg?auto=compress&cs=tinysrgb&w=600" alt=""> -->
+            <p style="background-image: url(https://images.pexels.com/photos/3422964/pexels-photo-3422964.jpeg?auto=compress&cs=tinysrgb&w=600);">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis voluptates, tenetur voluptatibus maiores eveniet quo quaerat autem fugit obcaecati voluptatem excepturi commodi laudantium. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur, temporibus minima, culpa deserunt pariatur eos accusamus voluptatem asperiores repudiandae nostrum deleniti quae molestiae accusantium quis rerum! Laboriosam quibusdam earum iure, hic laborum possimus debitis esse? Itaque deleniti similique autem mollitia cupiditate pariatur, fuga eveniet natus quam odio quidem veritatis saepe?</p>
+            <h1>NEW Audi vxr.</h1>
+
+        </div>
+        
+
+
+        <div class="slider">
+            <!-- <img src="https://images.pexels.com/photos/170811/pexels-photo-170811.jpeg?auto=compress&cs=tinysrgb&w=600" alt=""> -->
+            
+            <p style="background-image: url(https://images.pexels.com/photos/170811/pexels-photo-170811.jpeg?auto=compress&cs=tinysrgb&w=600);">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis voluptates, tenetur voluptatibus maiores eveniet quo quaerat autem fugit obcaecati voluptatem excepturi commodi laudantium. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur, temporibus minima, culpa deserunt pariatur eos accusamus voluptatem asperiores repudiandae nostrum deleniti quae molestiae accusantium quis rerum! Laboriosam quibusdam earum iure, hic laborum possimus debitis esse? Itaque deleniti similique autem mollitia cupiditate pariatur, fuga eveniet natus quam odio quidem veritatis saepe?</p>
+            <h1>NEW Audi vxr.</h1>
+        </div>
+        
+
+
+        <div class="slider">
+            <!-- <img src="https://images.pexels.com/photos/112460/pexels-photo-112460.jpeg?auto=compress&cs=tinysrgb&w=600" alt=""> -->
+            
+            <p style="background-image: url(https://images.pexels.com/photos/112460/pexels-photo-112460.jpeg?auto=compress&cs=tinysrgb&w=600);">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis voluptates, tenetur voluptatibus maiores eveniet quo quaerat autem fugit obcaecati voluptatem excepturi commodi laudantium. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur, temporibus minima, culpa deserunt pariatur eos accusamus voluptatem asperiores repudiandae nostrum deleniti quae molestiae accusantium quis rerum! Laboriosam quibusdam earum iure, hic laborum possimus debitis esse? Itaque deleniti similique autem mollitia cupiditate pariatur, fuga eveniet natus quam odio quidem veritatis saepe?</p>
+            <h1>NEW Audi vxr.</h1>
+        </div>
+        
+
+
+        <div class="slider">
+            <!-- <img src="https://images.pexels.com/photos/116675/pexels-photo-116675.jpeg?auto=compress&cs=tinysrgb&w=600" alt=""> -->
+            
+            <p style="background-image: url(https://images.pexels.com/photos/116675/pexels-photo-116675.jpeg?auto=compress&cs=tinysrgb&w=600);">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis voluptates, tenetur voluptatibus maiores eveniet quo quaerat autem fugit obcaecati voluptatem excepturi commodi laudantium. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur, temporibus minima, culpa deserunt pariatur eos accusamus voluptatem asperiores repudiandae nostrum deleniti quae molestiae accusantium quis rerum! Laboriosam quibusdam earum iure, hic laborum possimus debitis esse? Itaque deleniti similique autem mollitia cupiditate pariatur, fuga eveniet natus quam odio quidem veritatis saepe?</p>
+            <h1>NEW Audi vxr.</h1>
+        </div>
+        
+
+
+
+    </div>
+    <!-- Footer -->
+    <footer>
+        <div class="footerMain">
+            <div class="footerDivFirst footerDivs">
+                <h1>C A R 'A N</h1>
+                <div class="footerDiv2">
+                    <img src="https://cdn-icons-png.flaticon.com/128/3085/3085411.png" alt="icon">
+                </div>
+            </div>
+
+            <div class="footerDivSecond footerDivs">
+                <div>
+                    <h2 class="footerHeadings">Our Pages...</h2>
+                </div>
+                <div>
+                    <a href="#" class="footerText"> ➼ HOME</a>
+                </div>
+                <div>
+                    <a href="#" class="footerText"> ➼ ABOUT US</a>
+                </div>
+                <div>
+                    <a href="#" class="footerText"> ➼ BLOG</a>
+                </div>
+                <div>
+                    <a href="#" class="footerText"> ➼ SERVICES</a>
+                </div>
+                <div>
+                    <a href="#" class="footerText"> ➼ CHAT</a>
+                </div>
+                
+
+            </div>
+
+            <div class="footerDivThird footerDivs">
+                <div>
+                    <h2 class="footerHeadings">Subscribe Us!</h2>
+                </div>
+                <div class="">
+                    <input type="email" class="subscribeEmail" placeholder="your email here...">
+                </div>
+                <div>
+                    <button class="sendButton"><img src="https://cdn-icons-png.flaticon.com/128/3085/3085411.png" alt=""></button>
+                </div>
+            </div>
+
+            <div class="footerDivFourth footerDivs">
+
+            </div>
+            
+            
+        </div>
+        <div class="copyrightDiv">
+            <p class="copyrightP">&copy; Copyright 2023 Racing Cars Inc. All rights reserved. No part of this website may be reproduced, distributed, or transmitted in any form or by any means, including photocopying, recording, or other electronic or mechanical methods, without the prior written permission of Racing Cars Inc.</p>
+        </div>
+    </footer>
+
+
+
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
